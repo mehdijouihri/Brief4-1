@@ -1,0 +1,12 @@
+@mixin Cloudy_Knoxville {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+@mixin February_Ink {
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+@mixin Cold_Evening {
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+}
+@mixin Everlasting_Sky {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
