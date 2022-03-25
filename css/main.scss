@@ -14,7 +14,8 @@
 
 
 @import "layout/navbar";
-
+@import "layout/header";
+@import "layout/grid";
 
 @import "components/bouttons";
 
@@ -23,8 +24,3 @@
 
 
 @import "themes/theme";
-
-@import "layout/grid";
-html {
-    height: 5000px;
-}
