@@ -10,3 +10,8 @@
 @mixin Everlasting_Sky {
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
+@mixin flex_column_aicenter{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}

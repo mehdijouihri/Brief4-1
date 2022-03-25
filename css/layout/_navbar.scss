@@ -1,6 +1,29 @@
-nav {
+
+    nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 25% ;
+    @include flex_column_aicenter;
+    gap: 30px;
+    @include Cold_Evening;
+    .logo{
+        h1{
+            font-size: 64px;
+            margin: 0;
+        }
+        .slogan{
+            font-size: 32px;
+        }
+    }
+    ul {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        height: 300px;
+        li {
+            list-style: none;
+        }
+    }
 }
+
