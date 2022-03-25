@@ -4,4 +4,8 @@
     position: absolute;
     top: 0;
     right: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 50px;
 }
