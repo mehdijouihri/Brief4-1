@@ -15,3 +15,10 @@
     flex-flow: column;
     align-items: center;
 }
+
+/*taille image page accueil*/
+
+@mixin taille_img_indexGrid {
+    width : 50px;
+    height : 70px;
+}

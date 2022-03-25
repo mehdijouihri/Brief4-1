@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap");
+/*taille image page accueil*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -386,9 +387,26 @@ nav ul li {
   list-style: none;
 }
 
+.index_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.index_grid article img {
+  width: 50px;
+  height: 70px;
+}
+
 .conteneuraccueil {
   width: 75%;
   position: absolute;
   top: 0;
   right: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 50px;
+}
+
+html {
+  height: 5000px;
 }/*# sourceMappingURL=main.css.map */

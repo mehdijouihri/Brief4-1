@@ -1,0 +1,9 @@
+.index_grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    article img {
+        @include taille_img_indexGrid ;
+    }
+}
