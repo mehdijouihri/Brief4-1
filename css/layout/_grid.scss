@@ -8,3 +8,9 @@
         @include taille_img_defaultGrid ;
     }
 }
+@media screen and (max-width:700) {
+    .index_grid {   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}

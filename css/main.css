@@ -389,6 +389,11 @@ nav ul li {
   list-style: none;
 }
 
+@media screen and (max-width: 700px) {
+  nav {
+    left: -25%;
+  }
+}
 header {
   width: 100%;
 }
@@ -408,10 +413,16 @@ header figure img {
   gap: 20px;
 }
 .index_grid article img {
-  width: 250px;
-  height: 400px;
+  width: 150px;
+  height: 200px;
 }
 
+@media screen and (max-width: 700) {
+  .index_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .conteneuraccueil {
   margin-left: 25%;
   width: 75%;
