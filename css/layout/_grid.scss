@@ -2,8 +2,9 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
     
     article img {
-        @include taille_img_indexGrid ;
+        @include taille_img_defaultGrid ;
     }
 }
