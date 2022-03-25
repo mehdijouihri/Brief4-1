@@ -4,6 +4,7 @@
     top: 0;
     left: 0;
     width: 25% ;
+    height: 100vh;
     @include flex_column_aicenter;
     gap: 30px;
     @include Cold_Evening;
