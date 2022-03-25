@@ -8,5 +8,5 @@
     flex-flow: column;
     align-items: center;
     gap: 50px;
-    @include February_Ink;
+    background-image: $february_ink;
 }

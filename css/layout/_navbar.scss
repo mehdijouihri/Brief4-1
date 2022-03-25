@@ -7,7 +7,8 @@
     height: 100vh;
     @include flex_column_aicenter;
     gap: 30px;
-    @include Cold_Evening;
+    background-image: $cold_evening;
+
     .logo{
         h1{
             font-size: 64px;
