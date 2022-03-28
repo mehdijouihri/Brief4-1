@@ -1,7 +1,9 @@
 footer {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    /*display: flex;
+    justify-content: space-around;*/
     background-image: $everlsating_sky;
     
     .mapouter {
@@ -15,6 +17,15 @@ footer {
         background: none !important;
         height: 200px;
         width: 200px;
+      }
+
+      ul {
+          width: 75%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          list-style: none;
+          padding: 0;
       }
 
 }
