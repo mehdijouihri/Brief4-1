@@ -5,7 +5,10 @@ footer {
     /*display: flex;
     justify-content: space-around;*/
     background-image: $everlsating_sky;
-    
+    #gmap_canvas{
+        width:200px; 
+        height:200px;
+    }
     .mapouter {
         position: relative;
         text-align: right;
