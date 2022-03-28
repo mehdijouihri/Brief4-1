@@ -8,24 +8,32 @@
     @include flex_column_aicenter;
     gap: 20%;
     background-image: $cold_evening;
-
+    color: $couleur_fond_fonce ;
     .logo{
         text-shadow: -5px -5px 5px #0c3483;
         h1{
+            
             font-size: 52px;
-            margin: 0;
+            margin: 10px 0 0 0;
         }
         .slogan{
             font-size: 24px;
         }
     }
     ul {
+        text-shadow: -5px -5px 5px #0c3483;
         display: flex;
         flex-flow: column;
         justify-content: space-between;
         height: 300px;
         li {
             list-style: none;
+            a {
+                text-decoration: none;
+                color: $couleur_fond_fonce;
+
+            }
+            
         }
     }
 }
