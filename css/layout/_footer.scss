@@ -1,8 +1,19 @@
 footer {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-image: $everlsating_sky;
-    
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 200px;
+        width: 200px;
+      }
+      .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 200px;
+        width: 200px;
+      }
 
 }
