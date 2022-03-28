@@ -3,20 +3,20 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 25% ;
+    width: 20% ;
     height: 100vh;
     @include flex_column_aicenter;
-    gap: 30px;
+    gap: 20%;
     background-image: $cold_evening;
 
     .logo{
         text-shadow: -5px -5px 5px #0c3483;
         h1{
-            font-size: 64px;
+            font-size: 52px;
             margin: 0;
         }
         .slogan{
-            font-size: 32px;
+            font-size: 24px;
         }
     }
     ul {

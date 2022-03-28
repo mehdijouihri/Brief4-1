@@ -1,15 +1,32 @@
 .index_grid
 {
+    width: 75%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 100px;
+    /* gap: 100px; */
     
-    article img {
+     article img {
+         
         @include taille_img_defaultGrid ;
-    }
+    } 
 }
 @media screen and (max-width:700px) {
     .index_grid {
+        
         grid-template-columns: 1fr 1fr;
+}
+}
+@media screen and (max-width:500px) {
+    .index_grid {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        article{
+            width: 100%;
+            img {
+                width: 100%;
+            }
+
+        }
 }
 }
