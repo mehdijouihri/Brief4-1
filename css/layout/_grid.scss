@@ -1,14 +1,18 @@
 .index_grid
 {
-    width: 75%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* gap: 100px; */
+    gap: 20px;
+    article {
+        box-shadow: 10px 10px 5px 0px #6b8ccec5 ;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
     
-     article img {
-         
-        @include taille_img_defaultGrid ;
-    } 
+    
 }
 @media screen and (max-width:700px) {
     .index_grid {
@@ -25,6 +29,7 @@
             width: 100%;
             img {
                 width: 100%;
+                height: 250px;
             }
 
         }
