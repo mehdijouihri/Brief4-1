@@ -10,7 +10,7 @@
     background-image: $cold_evening;
     color: $couleur_fond_fonce ;
     .logo{
-        text-shadow: -5px -5px 5px #0c3483;
+        text-shadow: 5px 5px 3px #0c3483;
         h1{
             
             font-size: 52px;
@@ -21,7 +21,7 @@
         }
     }
     ul {
-        text-shadow: -5px -5px 5px #0c3483;
+        text-shadow: 8px 8px 3px #0c3483;
         display: flex;
         flex-flow: column;
         justify-content: space-between;
