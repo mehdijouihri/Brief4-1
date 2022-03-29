@@ -1,15 +1,14 @@
-
-    nav {
+nav {
     position: fixed;
     top: 0;
     left: 0;
     width: 20% ;
     height: 100vh;
     @include flex_column_aicenter;
-    gap: 20%;
+    gap: 50px;
     background-image: $cold_evening;
     color: $couleur_fond_fonce ;
-    .logo{
+    #logo{
         text-shadow: 5px 5px 3px #0c3483;
         h1{
             
@@ -40,12 +39,7 @@
 
 @media screen and (max-width:700px) {
     nav {
-        left: -20%;
-        width: 30%;
-        .logo{
-            left: -900px ;
-        }
-        >.link
+        width: 10%;
         #burger {
             width:30px;
             height:2px;
@@ -53,8 +47,7 @@
             display:inline-block;
             position:relative;
           }
-          #burger::before,
-            #burger::after {
+          #burger::before,#burger::after {
                 content:'';
                 width:30px;
                 height:2px;
@@ -82,5 +75,17 @@
                 transform: rotate(-45deg);
                 top:0;
               }
+              ul,#logo {
+                    transform: scaleX(0);
+                    transform-origin:center top;
+                    transition:all 0.3s ease;
+              }
+              ul.open ,#logo.open{
+                transform:scaleX(1);
+              }
+    }
+    nav.open{
+        width: 40%;
+        z-index: 1;
     }
 }
