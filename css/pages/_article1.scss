@@ -1,0 +1,26 @@
+.contenuMain
+    {   
+    width: 75%;
+    display: flex;
+    gap: 40px;
+    
+    
+
+    section
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-image: $everlsating_sky;
+
+        .presentation
+        {
+            text-align: justify;
+        }
+
+        div{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}
