@@ -1,0 +1,37 @@
+.conteneurArticle{
+    /*pour éviter que le footer ne soit pas collé au bas de page*/
+    height: 100vh;
+
+.contenuMain
+    {   
+    width: 75%;
+    display: flex;
+    gap: 40px;
+    
+    
+
+    section
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-image: $everlsating_sky;
+
+        .presentation
+        {
+            text-align: justify;
+            margin: 30px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        div{
+            display: flex;
+            justify-content: space-around;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+}
