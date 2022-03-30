@@ -8,13 +8,14 @@ footer {
     #gmap_canvas{
         width: 150px; 
         height: 150px;
-        border-radius: 10px;
+        border-radius: 0px;
+        margin-right: 20px;
 
     }
       ul {
           width: 75%;
           display: flex;
-          justify-content: space-between;
+          justify-content: space-around;
           align-items: center;
           list-style: none;
           padding: 0;
@@ -23,10 +24,35 @@ footer {
 }
 @media screen and (max-width:700px) {
     footer {
+        width: 100%;
+        #gmap_canvas{
+        width: 80%;
+        margin: 40px;
+        }
         ul{
         width: 100%;
+        margin: 20px;
         display: flex;
         flex-flow: column;
         align-items: center;}
 }
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        width: 90%;
+        display: flex;
+        flex-flow: column;
+
+        #gmap_canvas{
+        width: 80%;
+        margin: 40px;
+        }
+        ul{
+        width: 100%;
+        margin: 20px;
+        display: flex;
+        flex-flow: row;
+        }
+    }
 }
