@@ -6,8 +6,10 @@ footer {
     justify-content: space-around;*/
     background-image: $everlsating_sky;
     #gmap_canvas{
-        width:200px; 
-        height:200px;
+        width: 150px; 
+        height: 150px;
+        border-radius: 10px;
+
     }
       ul {
           width: 75%;
