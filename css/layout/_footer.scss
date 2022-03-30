@@ -40,19 +40,20 @@ footer {
 
 @media screen and (max-width: 500px) {
     footer {
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-flow: column;
 
-        #gmap_canvas{
-        width: 80%;
-        margin: 40px;
-        }
         ul{
         width: 100%;
-        margin: 20px;
         display: flex;
         flex-flow: row;
+        justify-content: space-evenly;
+        margin: 0px;
+
+        .twitter , .instagram , .facebook{
+            height: 50px;
+        }
         }
     }
 }
