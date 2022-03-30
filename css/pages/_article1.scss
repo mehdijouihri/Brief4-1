@@ -40,3 +40,21 @@
 }
 
 }
+
+@media screen and (max-width:990px) {
+    .contenuMain {
+        h2{
+            font-size: smaller;
+        }
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .contenuMain {
+        .gammePrix{
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+}
