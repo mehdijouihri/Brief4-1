@@ -20,38 +20,55 @@
 
     <ul>
       <li><a href="index.html"> Espace Boutique</a></li>
-      <li><a href="">A propos</a></li>
+      <li><a href="apropos.html">A propos</a></li>
       <li><a href="contact.html">Contact</a></li>
-    
     </ul>
 
   </nav>
-  <div class="conteneurdroite">
-    <header>
-      <figure>
-        <img src="img/photoheader.jpg" alt="photopresentation" />
-      </figure>
-    </header>
 
+  <div class="conteneurdroite">
+   
+    <header>
+      <figure class="bannier">
+        <img src="img/photoheader.jpg" alt="photopresentation">
+      </figure>
+      <a href="#" class="panier">
+        <img src="img/panier-dachat-dans-un-cercle.png" alt="panier">
+      </a>
+    </header>
     <main class="contact">
+      <form method="post">
       <h2>
         Votre costume sur mesure: veuillez remplir la demande de contact
       </h2>
-      <label>Nom <abbr title="obligatoire">*</abbr>:</label>
-      <input type="text" id="Nom" name="nom" required minlength="4" maxlength="30" size="30" />
-      <label>Prénom <abbr title="obligatoire">*</abbr>:</label>
-      <input type="text" id="Prenom" name="prenom" required minlength="4" maxlength="30" size="30" />
-      <label>Email <abbr title="obligatoire">*</abbr>:</label>
-      <input type="email" id="email" placeholder="sophie@example.com" pattern=".+@globex\.com" size="30" required>
-      <label>Téléphone <abbr title="obligatoire">*</abbr>:</label>
-      <input type="text" id="Mail" name="Mail" required minlength="4" maxlength="30" size="30" />
-      <br />
-      <label>Message à vous faire parvenir ci dessous :</label><br />
-      <textarea id="suggestio" placeholder="Votre message"></textarea>
-      <br />
-      <br />
+      <label for="nom">Nom <abbr title="obligatoire">*</abbr>:</label>
+      <input type="text" id="nom" name="nom" required minlength="4" maxlength="30" size="30" placeholder="Nom" />
+      <label for="prenom">Prénom <abbr title="obligatoire">*</abbr>:</label>
+      <input type="text" id="prenom" name="prenom" required minlength="4" maxlength="30" size="30" placeholder="Prénom" />
+      <label for="email">Email <abbr title="obligatoire">*</abbr>:</label>
+      <input type="email" id="email" placeholder="example@example.com" pattern=".+@globex\.com" size="30" required>
+      <label for="tel">Téléphone <abbr title="obligatoire">*</abbr>:</label>
+      <input type="text" id="tel" name="tel" required  maxlength="10" placeholder="0123456789" />
+      <label for="sujet">Sujet pour lequel vous nous contactez :</label>
+      <select name="sujet" id="sujet">
+        <option value="def">Choisissez un sujet</option>
+                    <optgroup label="Un rendez-vous" >
+                        <option value="fr">Pour un devis.</option>
+                        <option value="be">Pour prendre les mesures.</option>
+                    </optgroup>
+                    <optgroup label="Une assistance" >
+                        <option value="jp">Un defaut sur les mesures.</option>
+                        <option value="ch">Vous n'avez toujour pas reçu vos articles.</option>
+                    </optgroup>
+      </select>
+
+      <label>Message à vous faire parvenir ci dessous :</label>
+      <textarea id="suggestion" placeholder="Votre message"></textarea>
+      <button type="submit">Envoyer</button>
+      </form>
+    
     </main>
-    <button type="submit">Envoyer</button>
+    
     <footer>
         <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Halles%20de%20Paris&t=&z=13&ie=UTF8&iwloc=&output=embed">
         </iframe><a href="https://putlocker-is.org"></a><br />
