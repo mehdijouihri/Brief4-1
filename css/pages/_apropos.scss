@@ -1,0 +1,25 @@
+.conteneurapropos
+{   height: 101vh;
+    background-image: $february_ink;
+.apropos
+{   
+    display: flex;
+    text-align: justify;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    
+.buttonapropos
+     {  display: block;
+        margin-top: 100px;
+        background-color: black;
+        color: $couleur_fond_fonce;
+        text-decoration: none;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        align-self: center;
+    }
+}
+}
