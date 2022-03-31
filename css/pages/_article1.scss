@@ -30,9 +30,8 @@
         .presentation
         {
             text-align: justify;
-            margin: 30px;
-            margin-left: 50px;
-            margin-right: 50px;
+            align-self: center;
+            width: 80%;
         }
 
         div{
@@ -46,23 +45,36 @@
 
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width: 1390px) {
     .contenuMain {
-        display: flex;
-        flex-direction: column;
+       .gammePrix{
+           flex-flow: column;
+           align-self: center;
+           gap: 15px;
 
-        h2{
-            font-size: smaller;
-        }
+       }
     }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 990px) {
+    .conteneurArticle{
     .contenuMain {
-        .gammePrix{
-            display: flex;
-            flex-direction: column;
-
+        align-items: center;
+        
+        .imgArticle 
+        {
+            max-width: 500px;
+            width: 100%;
         }
-    }
+
+        display: flex;
+        flex-direction: column;
+
+        section
+        {
+            max-width: 500px;
+            width: 100%;
+            gap: 20px;
+        }
+    }}
 }

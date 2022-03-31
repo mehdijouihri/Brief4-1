@@ -2,15 +2,15 @@
 {
         background-color: black;
         color: white;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 100px;
-        padding-right: 100px;
+        max-width: 300px;
+        width: 100%;
+        padding: 15px 0px;
         border-radius: 40px;
+        text-align: center;
       
 }
 
-@media screen and (max-width:990px) {
+/*@media screen and (max-width:990px) {
         .boutonDevis {
                 width:  90px;
                 font-size:x-small;
@@ -22,4 +22,4 @@
                 font-size:x-small;
                 width: 30px;
         }
-    }
+    }*/
