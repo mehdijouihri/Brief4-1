@@ -100,26 +100,3 @@
         }
 }
 }
-@media screen and (max-width:350px) {
-    .index_grid {
-        >article{ 
-            margin: 0;
-            width: 50%;
-            a{
-        width: 100%;
-    }
-        a>img {
-        width: 100%;
-        }
-        .etiquette
-        {
-            width: 60px;
-            height: 25px;
-        .prix{
-            font-size: 10px;
-            top: 5px;
-            right: 5px;
-        }}
-        
-    }
-}}
