@@ -5,16 +5,18 @@ nav {
     width: 20% ;
     height: 100vh;
     @include flex_column_aicenter;
-    gap: 50px;
     background-image: $cold_evening;
     color: $couleur_fond_fonce ;
+    #link{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
     #logo{
         text-shadow: 5px 5px 3px #0c3483;
-        margin-top: -55px;
         h1{
-            
+            margin: 0;
             font-size: 52px;
-            margin: 10px 0 0 0;
         }
         .slogan{
             font-size: 24px;
@@ -41,17 +43,18 @@ nav {
 
 @media screen and (max-width:700px) {
     nav {
-        width: 10%;
+        width: 40px;
         #burger {
-            width:30px;
+            width:25px;
             height:2px;
             background:white;
             display:inline-block;
             position:relative;
+            left: 2px;
           }
           #burger::before,#burger::after {
                 content:'';
-                width:30px;
+                width:25px;
                 height:2px;
                 background:white;
                 display:inline-block;
@@ -83,7 +86,7 @@ nav {
                     transition:all 0.2s ease;
               }
               #logo{
-                  margin: 0;
+                  margin: 30px 0 0 0; 
               }
               ul.open ,#logo.open{
                 transform:scaleX(1);
