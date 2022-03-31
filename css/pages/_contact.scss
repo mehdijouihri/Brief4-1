@@ -28,6 +28,12 @@
       color: $couleur_fond_fonce;
       align-self: center;
 }
+
+    button:hover{
+    transform: scale(1.1) ;
+    transition: all 0.2s;
+}
+
   textarea {
   background-image: $cloudy_knoxville;
   font-style: oblique;
