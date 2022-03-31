@@ -1,25 +1,13 @@
 .boutonDevis
 {
         background-color: black;
-        color: white;
+        color: $couleur_fond_fonce;
         max-width: 300px;
         width: 100%;
         padding: 15px 0px;
         border-radius: 40px;
         text-align: center;
+        text-decoration: none;
       
 }
 
-/*@media screen and (max-width:990px) {
-        .boutonDevis {
-                width:  90px;
-                font-size:x-small;
-        }
-    }
-
-@media screen and (max-width:590px) {
-        .boutonDevis {
-                font-size:x-small;
-                width: 30px;
-        }
-    }*/
