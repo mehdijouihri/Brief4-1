@@ -1,9 +1,14 @@
 .conteneurArticle{
     /*pour éviter que le footer ne soit pas collé au bas de page*/
-    height: 100vh;
+    min-height: 100vh;
 
 .contenuMain
     {   
+        .imgArticle
+        {
+            max-width: 300px;
+            width: 100%;
+        }
     width: 75%;
     display: flex;
     gap: 40px;
@@ -43,6 +48,9 @@
 
 @media screen and (max-width:990px) {
     .contenuMain {
+        display: flex;
+        flex-direction: column;
+
         h2{
             font-size: smaller;
         }
